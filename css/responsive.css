@@ -1,0 +1,68 @@
+@media screen and (max-width: 1429px) {
+    #Dash-card {
+        min-height: 100vh;
+    }
+    .boxes {
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+    }
+    .cards {
+        width: 31vw !important;
+    }
+    #card-img {
+        height: 48vh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .cards {
+        width: 50vw !important;
+    }
+    #card-img {
+        height: 47vh;
+    }
+    .dish-container {
+        padding: 34px 18px;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    #footer {
+        flex-wrap: wrap;
+        padding: 20px 20px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .special {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .dish-container {
+        width: 90vw;
+    }
+    #footer {
+        justify-content: left;
+    }
+    .info {
+        width: auto;
+    }
+    .touch {
+        width: auto;
+    }
+    .accept {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .cards {
+        width: 100vh !important;
+    }
+    #card-img {
+        height: 46vh;
+    }
+}

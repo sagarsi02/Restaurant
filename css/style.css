@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap");
+
+/* Navbar */
+
+#bookTable {
+    background: #f50c0c;
+    padding: 8px 18px;
+    border-radius: 2px;
+    color: #283845;
+    transition: .4s ease-in-out;
+}
+
+#bookTable:hover {
+    background: #283845;
+    color: #f50c0c;
+}
+
+
+/* Dashboard */
+
+.hero {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-title {
+    font-size: 38px;
+    font-weight: revert;
+    color: #fff;
+    text-shadow: 4px 2px #f64312;
+}
+
+.welcome-para {
+    font-size: 15px;
+    color: #fff;
+    font-family: sans-serif;
+    margin-bottom: 35px;
+}
+
+.btn-explore {
+    background: #c61010;
+    padding: 8px 24px;
+    border-radius: 3px;
+    transition: .4s ease-in-out;
+    color: #f6e20b;
+    font-size: 21px;
+}
+
+.btn-explore:hover {
+    color: #fff;
+    background: none;
+    border: 1px solid #000000;
+}
+
+
+/* Dashboard Box Section */
+
+.box-container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+}
+
+.boxes {
+    position: absolute;
+    top: -80px;
+}
+
+#Dash-card {
+    min-height: 45vh;
+    background-color: #f1f1f1;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 9px -4px #000000;
+    overflow: hidden;
+}
+
+#box-content {
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+#card-img {
+    height: 21vw;
+    transition: .5s ease-in-out;
+}
+
+#box-content:hover img {
+    transform: scale(1.2);
+}
+
+.card-about {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.card-cat {
+    font-size: 23px;
+    font-family: emoji;
+}
+
+.card-title {
+    font-size: 29px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.explore {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 12px;
+    padding: 13px 21px;
+    margin-top: 15px;
+    transition: all 0.5s ease 0s;
+    position: relative;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+
+/* Fagito special */
+
+.special-dish {
+    padding: 40px 0;
+    height: 92vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.special-head {
+    min-height: 80vh;
+}
+
+.special-title {
+    color: #fff;
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.span1 {
+    color: #dbca18;
+}
+
+.span2 {
+    color: #ff0000;
+}
+
+.span3 {
+    color: #ed7f0e;
+}
+
+.span4 {
+    color: #002cff;
+}
+
+.span5 {
+    color: #ad00ff;
+}
+
+.span6 {
+    color: #0ef858;
+}
+
+.span7 {
+    color: #00fff1;
+}
+
+.zigzag {
+    display: flex;
+    justify-content: center;
+}
+
+.zigzag i {
+    color: red;
+}
+
+
+/* Dish Card */
+
+.dish-container {
+    background: #fff;
+    width: 45vw;
+    padding: 50px 100px;
+    position: absolute;
+    top: 25vh;
+    border-radius: 3px;
+}
+
+.dish-title {
+    font-size: 32px;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.dish-para {
+    font-size: 17px;
+    margin-bottom: 25px;
+    color: #a9a6a6;
+}
+
+.dish-zigzag i {
+    color: red;
+}
+
+.order-now {
+    color: #fff;
+    background: #eb0a0a;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 19px;
+}
+
+.order-now:hover {
+    color: #000000;
+}
+
+
+/* Footer Section */
+
+.footer {
+    background: #283845;
+}
+
+#footer {
+    display: flex;
+    color: #fff;
+    padding: 25px 10px;
+}
+
+.info {
+    width: 33vw;
+    padding: 20px 0;
+}
+
+.touch {
+    width: 34vw;
+    padding: 20px 0;
+}
+
+.accept {
+    width: 33vw;
+    padding: 20px 0;
+}
+
+.footer-ul {
+    padding: 0;
+}
+
+.footer-li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer-li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.footer-li a:hover {
+    margin-left: 10px;
+}
+
+#touch-conn i {
+    margin-right: 8px;
+}
+
+.accept-ul {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.accept-li {
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.accept-li i {
+    font-size: 22px;
+}
