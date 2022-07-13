@@ -248,12 +248,12 @@
 
 .touch {
     width: 34vw;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 
 .accept {
     width: 33vw;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 
 .footer-ul {
@@ -262,7 +262,7 @@
 
 .footer-li {
     list-style: none;
-    padding: 5px 0;
+    padding: 5px 20px;
 }
 
 .footer-li a {

@@ -1,6 +1,6 @@
 @media screen and (max-width: 1429px) {
     #Dash-card {
-        min-height: 100vh;
+        min-height: 150vh;
     }
     .boxes {
         flex-wrap: wrap;
@@ -64,5 +64,11 @@
     }
     #card-img {
         height: 46vh;
+    }
+}
+
+@media screen and (max-width:360px) {
+    #footer {
+        justify-content: left;
     }
 }
